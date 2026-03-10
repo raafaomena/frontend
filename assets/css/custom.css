@@ -1,0 +1,50 @@
+/*Rafaela Omena de Souza Student no 76122/*
+/*  ============= WEB BROWSER RESETS ============ */
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+
+header.theme-dark   { background-color: #0f172a }
+
+header.theme-dark  h1 { color: var(--sky-400); }
+
+section.theme-dark   { background-color: #0f172a }
+
+footer.theme-dark   { background-color: #0f172a }
+
+
+
+header .col-text h2, .col-1 > h3 { 
+    line-height: 1.8;
+    color: #f7d8d8;
+
+}
+
+.gradient-text {
+    background: linear-gradient(to right,
+        var(--rose-400), /* Start color */
+        var(--purple-600) /* End color */
+    );
+
+    /* Clip the background to the text's shape */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Make the text transparent so the background shows */
+    color: transparent;
+}
+
+
+
+.logo-nav {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+.me {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 20%;
+    border: 4px solid #f7d8d8;
+}
+

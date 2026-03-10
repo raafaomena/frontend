@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     // Imagine you are building an online store. Create three variables for a product name, its price, and its category (e.g., "Electronics"). Use a template literal to output: "New Arrival: [productName] ([category]) is now on sale for €[price]."
+     
+
+     let productName = 'Iphone';
+     let price = 800;
+     let category = "mobile phones";
+
+     consile.log("New Arrival: ${productName} (${category}) is now on sale for $${price}");
+
+     // Create a string variable with the text: "JavaScript is super fun!"
+
+     let strVar = "JavaScript is super fun!";
+     let strLength = strVar.length
+     let firstChar = var[0];
+     let lastChar = strVar[strVar.length];
+
+     console.log('Length: ${strLength} First: ${firstChar} Last: ${lastChar}')
+
+     //Create a variable called userEmail with the value " JoHn.Doe@Gmail.com " (note the spaces and mixed case).
+
+     let userEmail ='John.Doe@Gmail.com';
+
+     console.log('${userEmail.trim().toLowerCase()}');
+
+
+     //Create a function declaration that calculates a product's final price. It has three parameters: the product's original price, and a fixed discount amount, and tax added.
+
+     function calcPrice(basePrice, discount, tax) {
+        let finalPrice = basePrice - discount;
+        finalPrice = finalPrice + (finalPrice * tax);
+        console.log('Final price: €${finalPrice}')
+
+     }
+
+     calcPrice(100,20,0.2);
+
+     let currentSpeed = 0;
+     currentSpeed += 30;
+     currentSpeed *= 30;
+     currentSpeed --;
+     console.log(currentSpeed)
+
+
+
+
+
+        
+        
+        </script>
+</body>
+</html>
